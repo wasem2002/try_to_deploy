@@ -3,7 +3,7 @@ from rest_framework.response import Response
 
 
 
-@api_view(["POST"])
+@api_view(["POST","GET"])
 def calc(request):
     data=request.data
     print(data)
